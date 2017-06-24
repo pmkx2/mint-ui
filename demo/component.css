@@ -1,0 +1,40 @@
+/*
+ * demo页面使用样式
+*/
+
+/* button */
+.page-button-group, .page-button-group>* {
+    margin-bottom: 30px;
+}
+.page-button {
+    padding: 0 30px 30px;
+}
+
+/* toast */
+.page-toast-wrapper button:not(:last-child) {
+    margin-bottom: 40px;
+}
+.page-toast-wrapper {
+    padding: 0 40px;
+}
+.mintui {
+    font-family: "mintui" !important;
+    font-size: 51px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.4px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* pull-up */
+.page-loadmore-listitem {
+    height: 100px;
+    line-height: 100px;
+}
+.loading-background {
+    height: 100px;
+    line-height: 100px;
+}
+.page-loadmore-desc {
+    padding-bottom: 10px;
+}

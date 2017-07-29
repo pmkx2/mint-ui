@@ -88,7 +88,7 @@
       },
       itemHeight: {
         type: Number,
-        default: 36
+        default: 72
       }
     },
 

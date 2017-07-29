@@ -1456,8 +1456,8 @@ display: inline-block;
           transition-duration: 0s;
 }
 .picker-item {
-  height: 36px;
-  line-height: 36px;
+  height: 72px;
+  line-height: 72px;
   padding: 0 10px;
   white-space: nowrap;
   position: relative;

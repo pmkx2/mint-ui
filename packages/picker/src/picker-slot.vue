@@ -47,8 +47,8 @@
   }
 
   .picker-item {
-    height: 36px;
-    line-height: 36px;
+    height: 72px;
+    line-height: 72px;
     padding: 0 10px;
     white-space: nowrap;
     position: relative;
@@ -115,7 +115,7 @@
     element.style[transformProperty] = element.style[transformProperty].replace(/rotateX\(.+?deg\)/gi, '') + ` rotateX(${angle}deg)`;
   };
 
-  const ITEM_HEIGHT = 36;
+  const ITEM_HEIGHT = 72;
   const VISIBLE_ITEMS_ANGLE_MAP = {
     3: -45,
     5: -20,

@@ -17,13 +17,20 @@
 .page-toast-wrapper {
     padding: 0 40px;
 }
-.mintui {
-    font-family: "mintui" !important;
-    font-size: 51px;
-    font-style: normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.4px;
-    -moz-osx-font-smoothing: grayscale;
+
+/* infinite scroll */
+.page-infinite-listitem {
+    height: 100px;
+    line-height: 100px;
+}
+.page-infinite-loading {
+    height: 100px;
+    line-height: 100px;
+}
+.page-infinite-loading .mint-spinner-fading-circle {
+    width: 56px !important;
+    height: 56px !important;
+    margin-right: 10px;
 }
 
 /* pull-up */
@@ -38,3 +45,30 @@
 .page-loadmore-desc {
     padding-bottom: 10px;
 }
+.page-popup .mint-popup-1 {
+    width: 400px;
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: -20px;
+}
+.page-popup .mint-popup-1 h1 {
+    font-size: 40px;
+}
+.page-popup .mint-popup-1:before {
+    border-width: 20px;
+    top: -40px;
+    right: 100px;
+}
+.page-popup .mint-popup-2 {
+    height: 100px;
+}
+.page-popup .mint-popup-2 p {
+    line-height: 100px;
+}
+
+/* swipe */
+.page-swipe .mint-swipe {
+    height: 400px;
+}
+
+/* swipe */

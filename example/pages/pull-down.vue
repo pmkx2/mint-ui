@@ -36,8 +36,8 @@
       }
 
       @descendent listitem {
-        height: 50px;
-        line-height: 50px;
+        height: 100px;
+        line-height: 100px;
         border-bottom: solid 1px #eee;
         text-align: center;
         &:first-child {
@@ -58,8 +58,8 @@
   }
   @component loading-background{
     width: 100%;
-    height: 50px;
-    line-height: 50px;
+    height: 100px;
+    line-height: 100px;
     text-align: center;
     transition: .2s linear;
   }
